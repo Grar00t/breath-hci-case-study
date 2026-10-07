@@ -15,10 +15,10 @@ artifact.
 Examples of short interface cues:
 
 - "ابدأ بهدوء."
-- "خذ وقتك."
 - "تنفس بشكل طبيعي."
-- "يمكنك التوقف في أي وقت."
-- "اضغط للمتابعة عندما تكون جاهزاً."
+- "خذ وقتك."
+- "تقدر توقف في أي وقت."
+- "إذا كنت جاهز، اضغط ونكمل."
 
 The language is intentionally neutral and non-diagnostic.
 
@@ -43,6 +43,18 @@ A future implementation could expose a tiny engine-neutral interface:
     set_enabled(bool)
 
 The HCI layer should not depend directly on a particular TTS provider.
+
+## Local TTS validation
+
+A local prototype run used a Saudi-Arabic Magpie TTS checkpoint with
+`arabic_SA_chartokenizer` at 22,050 Hz and generated all five prompts
+successfully.
+
+The runnable local-generation example is in `magpie_breath_batch.py`.
+See `EVIDENCE.md` for the recorded run details.
+
+Model assets and generated audio binaries are intentionally not committed
+to this repository.
 
 ## Boundary
 
