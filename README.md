@@ -1,34 +1,50 @@
 # Breath | تـنـفـــس — Design Case Study
 
-A mobile game that turns **breathing therapy into play** for adolescents (13–17) managing OCD: your actual breath, captured through the microphone, is the game controller. Exhale to start; inhale to shrink the balloon away from the needle; steady breathing keeps your character alive and growing. The therapy *is* the gameplay.
+A mobile interaction concept for adolescents (13–17) that uses microphone-detected breathing as a game input. In the prototype, exhaling starts play, inhaling moves the balloon away from the needle, and steady breathing drives the core interaction.
 
-This repo is the HCI design case study — high-fidelity prototype, design rationale, and evaluation. (No code: the deliverable was a validated interactive prototype.)
+This repository documents an HCI design case study: interface screens, interaction rationale, and a high-fidelity prototype concept. It does **not** contain a production application, clinical intervention, medical device, or evidence that the design treats OCD.
 
 ![Navigation flow map](figures/flow-map.png)
 
-## The core mechanic
+## Repository contents
 
-| Start by exhaling | Breath-controlled balloon | Accessible by design |
+| Artifact | Purpose |
+| --- | --- |
+| `figures/flow-map.png` | Navigation and task-flow overview |
+| `figures/game-start.png` | Start-state interaction |
+| `figures/game-balloon-needle.png` | Core balloon/needle game state |
+| `figures/settings-accessibility.png` | Accessibility/settings concept |
+| `figures/splash.png` | Splash/entry screen |
+
+## Core interaction
+
+| Start by exhaling | Breath-controlled balloon | Accessibility settings |
 |---|---|---|
 | ![game start](figures/game-start.png) | ![balloon and needle](figures/game-balloon-needle.png) | ![settings](figures/settings-accessibility.png) |
 
-Breathing exercises are the evidence-based intervention for OCD-related anxiety — but teenagers abandon exercises that feel clinical. Making the breath itself the input device means you cannot play without doing the therapy.
+The design explores whether breathing can be used as an embodied input mechanism in a calming game. That is a **design hypothesis**, not a clinical efficacy claim.
 
 ## Design process
 
-- **Lo-fi → hi-fi**: paper concepts → Figma → an interactive **Proto.io** prototype (chosen after evaluating iOS prototyping options through the **DECIDE framework** under a 4-week constraint).
-- **Slice approach**: rather than shallow-prototyping everything, we built the critical first-session path deep — onboarding, tutorial, first game — because a therapy app lives or dies on first impressions.
-- **Design principles**: Shneiderman's 8 Golden Rules applied and documented screen-by-screen (visibility of status via animation/audio cues, recognition over recall, error prevention, minimalist calming aesthetic).
-- **Accessibility as a feature, not an afterthought**: color-blind mode, high-contrast mode, audio descriptions, adjustable mic sensitivity, customizable avatars.
+- **Lo-fi → hi-fi**: paper concepts → Figma → an interactive **Proto.io** prototype.
+- **Focused slice**: the prototype concentrates on the first-session path — onboarding, tutorial, and first game — instead of attempting production completeness.
+- **HCI rationale**: the project applies usability principles such as visible system status, recognition over recall, error prevention, and a deliberately simple visual language.
+- **Accessibility concepts**: the screens include color-blind/high-contrast options, audio descriptions, adjustable microphone sensitivity, and customizable avatars.
 
-## Evaluation
+## Evaluation boundary
 
-Two independent tracks:
+The original project describes two evaluation tracks:
 
-1. **User testing with adolescents diagnosed with OCD** (with participant/guardian consent and anonymized feedback) — task-based sessions on the interactive prototype.
-2. **Expert reviews** against Nielsen's usability heuristics, documented rule-by-rule.
+1. task-based user testing reported as involving adolescents diagnosed with OCD, with participant/guardian consent and anonymized feedback;
+2. expert review using Nielsen-style usability heuristics.
 
-Findings converged: the calming visual language and simple navigation carried the therapeutic intent, and reviewers highlighted the potential of gamified therapy to lower barriers to treatment for a stigmatized condition.
+The public repository currently contains the design artifacts shown above, but it does **not** include participant-level data, consent records, study instruments, reviewer notes, raw observations, or a results dataset. Those evaluation claims therefore cannot be independently reproduced from this repository alone.
+
+No clinical outcome, treatment efficacy, safety, diagnosis, or reduction in barriers to care is established by the files in this repository.
+
+## What this repository supports
+
+The committed artifacts support inspection of the prototype's visual design, navigation concept, game interaction, and accessibility concepts. They do not support claims about therapeutic effectiveness or clinical validation.
 
 ## Credits
 
