@@ -1,0 +1,27 @@
+{
+  "locale": "ar-SA",
+  "purpose": "accessibility-prototype",
+  "clinical_claim": false,
+  "prompts": [
+    {
+      "id": "ready",
+      "text": "ابدأ بهدوء."
+    },
+    {
+      "id": "natural_breath",
+      "text": "تنفس بشكل طبيعي."
+    },
+    {
+      "id": "take_time",
+      "text": "خذ وقتك."
+    },
+    {
+      "id": "pause",
+      "text": "يمكنك التوقف في أي وقت."
+    },
+    {
+      "id": "continue",
+      "text": "اضغط للمتابعة عندما تكون جاهزاً."
+    }
+  ]
+}
